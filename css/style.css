@@ -1,0 +1,42 @@
+img {
+    width: 100%;
+}
+
+.slider img {
+    object-fit: cover;
+    object-position: top;
+    height: 500px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.support {
+    cursor: pointer;
+}
+
+.courses img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+footer .d-flex .icon {
+    width: 35px;
+    border-radius: 5px;
+    background-color: #b9b6ff6b;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #F5F5F5;
+}
+
+footer ul {
+    list-style: ">";
+}
+
+footer ul li {
+    padding-left: 10px;
+}
