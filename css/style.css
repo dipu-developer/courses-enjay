@@ -22,6 +22,32 @@ img {
     margin: auto;
 }
 
+.card {
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.disc {
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 6px 6px 18px #a8a8a8,
+        -6px -6px 18px #ffffff;
+        
+}
+.star{
+    width: 25px;
+}
+.info{
+    width: 15px;
+
+}
+.contactform{
+    max-width: 500px;
+}
+
 footer .d-flex .icon {
     width: 35px;
     border-radius: 5px;
